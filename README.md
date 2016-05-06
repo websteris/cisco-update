@@ -2,16 +2,18 @@
 
 # Cisco bulk command script - web0 2014
 
-# This can be used with a bash loop to apply updates to a list of devices
-# See webster for lots of examples of how this can and has been used
+ This can be used with a bash loop to apply updates to a list of devices
+ See webster for lots of examples of how this can and has been used
 
-# Commands and syntax vary depending on device and IOS version
-# To overcome this I've typically used rancid or other config files to grep for 
-# a specific target device and built out the commands in text files for each
-# Don't forget to write memory
+ Commands and syntax vary depending on device and IOS version
+ To overcome this I've typically used rancid or other config files to grep for 
+ a specific target device and built out the commands in text files for each
+ Don't forget to write memory
 
-# Requires the Net::Telnet::Cisco cpan module which can be installed
-# with 'sudo cpan Net::Telnet::Cisco' or with cpanminus
+ Requires the Net::Telnet::Cisco cpan module which can be installed
+ with 'sudo cpan Net::Telnet::Cisco' or with cpanminus
+
+# Usage
 
 Usage: ./cisco.pl -h hostname 
 
