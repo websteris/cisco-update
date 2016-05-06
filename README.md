@@ -20,14 +20,23 @@ Usage: ./cisco.pl -h hostname
 NOTE: Either -c or -f arguments are required
 
 OPTIONS
+
  -c		Command to run on host, use ; for multiple lines
+
  -e		Set enable mode
+
  -f		Text file containing commands to run
+
  -h		Hostname or IP of device
+
  -n		Enable Mode Password - defaults to our standard
+
  -o		Log file to append output information to
+
  -p		Password - defaults to our standard pw
+
  -u		Username - defaults to spectrum
+
  -v		Verbose mode: display output on screen
 
 
