@@ -2,6 +2,8 @@
 
 # Cisco bulk command script - web0 2014
 
+This is kind of reinventing the wheel here and there are likely several better utilities for this. It started out a basic expect script to login to a device and eventually became more complicated.
+
  This can be used with a bash loop to apply updates to a list of devices
  See webster for lots of examples of how this can and has been used
 
