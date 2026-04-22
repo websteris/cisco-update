@@ -13,6 +13,6 @@ jobs:
   syntax-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Perl syntax check
         run: find . -name '*.pl' -print0 | xargs -0 -n1 perl -c
